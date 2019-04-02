@@ -1,9 +1,9 @@
-# oo_boot_camp_2019-03-25_kotlin
+# oo_boot_camp_2019-04-08_kotlin
 
 Copyright (c) 2019 by Fred George.
 May be used freely except for training; license required for training.
 
-Kotlin OO Boot Camp in Kotlin for Montreal client - 25 March - 5 April 2019
+Kotlin OO Boot Camp in Kotlin for Toronto client - 8-19 April 2019
 
 Kotlin is relatively easy to setup with IntelliJ IDEA. The following instructions are for installing
 the code in IntelliJ 2018 by JetBrains. Adapt as necessary for your environment.
