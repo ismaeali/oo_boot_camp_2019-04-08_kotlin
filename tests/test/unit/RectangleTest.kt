@@ -17,4 +17,8 @@ internal class RectangleTest {
         assertEquals(24.0, Rectangle(4.0, 6.0).area())
         assertEquals(24.0, Rectangle(4, 6).area())
     }
+
+    @Test internal fun perimeter() {
+        assertEquals(20.0, Rectangle(4, 6.0).perimeter)
+    }
 }

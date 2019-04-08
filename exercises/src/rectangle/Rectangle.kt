@@ -9,4 +9,6 @@ class Rectangle(length: Number, width: Number) {
         return length * width
     }
 
+    val perimeter get() = 2 * (length + width)
+
 }
