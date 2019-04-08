@@ -9,6 +9,7 @@ package unit
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import rectangle.Rectangle
+import kotlin.test.assertFailsWith
 
 // Ensures Rectangle works correctly
 internal class RectangleTest {
@@ -20,5 +21,10 @@ internal class RectangleTest {
 
     @Test internal fun perimeter() {
         assertEquals(20.0, Rectangle(4, 6.0).perimeter)
+    }
+
+    @Test internal fun `valid dimensions`() {
+        assertFailsWith(IllegalArgumentException::class) { Rectangle(0, 6.0) }
+        assertFailsWith(IllegalArgumentException::class) { Rectangle(4.0, 0.0) }
     }
 }
