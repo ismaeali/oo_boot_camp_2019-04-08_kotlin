@@ -8,11 +8,13 @@ package unit
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
+import rectangle.Rectangle
 
 // Ensures Rectangle works correctly
 internal class RectangleTest {
 
     @Test internal fun area() {
         assertEquals(24.0, Rectangle(4.0, 6.0).area())
+        assertEquals(24.0, Rectangle(4, 6).area())
     }
 }
